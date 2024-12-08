@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Share</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Image Share</h1>
+  <form id="uploadForm">
+    <input type="text" id="fileName" placeholder="File Name" required /><br>
+    <input type="text" id="userId" placeholder="User ID" required /><br>
+    <input type="text" id="userName" placeholder="User Name" required /><br>
+    <input type="file" id="fileInput" accept="image/*" required /><br>
+    <button type="button" id="submitBtn">Submit</button>
+  </form>
+  <button id="viewBtn">View Images</button>
+  <p id="message"></p>
+  <script src="script.js"></script>
+</body>
+</html>
